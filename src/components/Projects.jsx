@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { github, pineapple, pineappleHover } from "../assets";
-import { projects } from "../constants";
+import { dataScienceProjects, softwareEngineeringProjects } from "../constants";
 import { fadeIn, textVariant, staggerContainer } from "../utils/motion";
 
 const ProjectCard = ({
@@ -149,7 +149,27 @@ const Projects = () => {
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
-          {projects.map((project, index) => (
+          {dataScienceProjects.map((project, index) => (
+            <ProjectCard
+              key={project.id}
+              index={index}
+              {...project}
+              active={active}
+              handleClick={setActive}
+            />
+          ))}
+        </div>
+      </motion.div>
+
+      <motion.div
+        variants={staggerContainer}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0.25 }}
+        className={`${styles.innerWidth} mx-auto flex flex-col`}
+      >
+        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
+          {softwareEngineeringProjects.map((project, index) => (
             <ProjectCard
               key={project.id}
               index={index}

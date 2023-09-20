@@ -26,7 +26,6 @@ import sendHover from "./icons/sendHover.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -35,9 +34,16 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import graphql from "./tech/graphql.png";
 import postgresql from "./tech/postgresql.png";
 import rubyrails from "./tech/rubyrails.png";
+import python from "./tech/python.png";
+import spring from "./tech/springBoot.svg";
+import java from "./tech/java.png";
+import angular from "./tech/angular.png";
+import mysql from "./tech/mysql.png";
+import numpy from "./tech/numpy.png";
+import scikit from "./tech/scikit.png";
+import tensorflow from "./tech/tensorflow.png";
 
 import coverhunt from "./company/coverhunt.png";
 import dcc from "./company/dcc.png";
@@ -45,6 +51,8 @@ import kelhel from "./company/kelhel.png";
 import microverse from "./company/microverse.png";
 
 import komikult from "./projects/komikult.png";
+import teammates from "./projects/teammates.jpeg";
+import weatherImage from "./projects/weather-image.jpeg";
 import leaderboard from "./projects/leaderboard.png";
 import math from "./projects/math-magicians.png";
 import movie from "./projects/movie-metro.png";
@@ -76,9 +84,7 @@ export {
   sendHover,
   css,
   docker,
-  figma,
   git,
-  graphql,
   html,
   javascript,
   nodejs,
@@ -98,4 +104,14 @@ export {
   dcc,
   kelhel,
   microverse,
+  python,
+  spring,
+  java,
+  angular,
+  mysql,
+  numpy,
+  scikit,
+  tensorflow,
+  weatherImage,
+  teammates,
 };

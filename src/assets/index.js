@@ -58,6 +58,8 @@ import math from "./projects/math-magicians.png";
 import movie from "./projects/movie-metro.png";
 import nyeusi from "./projects/nyeusi.png";
 import space from "./projects/space-hub.png";
+import studentGroupManger from "./projects/student-group-manager.jpeg";
+import iid3 from "./projects/iid3.png";
 
 export {
   bwmap,
@@ -114,4 +116,6 @@ export {
   tensorflow,
   weatherImage,
   teammates,
+  studentGroupManger,
+  iid3,
 };

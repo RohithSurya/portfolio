@@ -27,6 +27,8 @@ import {
   tensorflow,
   weatherImage,
   teammates,
+  studentGroupManger,
+  iid3,
 } from "../assets";
 
 export const navLinks = [
@@ -167,9 +169,9 @@ const dataScienceProjects = [
   },
   {
     id: "project-2",
-    name: "Leaderboard",
+    name: "Improved ID3 Algorithm",
     description:
-      "A leaderboard list app that displays scores submitted by different players.",
+      "Implemeting an improved ID3 algorithm for clinical data classification",
     tags: [
       {
         name: "react",
@@ -184,9 +186,9 @@ const dataScienceProjects = [
         color: "pink-text-gradient",
       },
     ],
-    image: leaderboard,
-    repo: "https://github.com/shaqdeff/Leaderboard",
-    demo: "https://shaqdeff.github.io/Leaderboard/",
+    image: iid3,
+    repo: "https://github.com/gangadharKorrapati/MINPRO/tree/master",
+    demo: "",
   },
   {
     id: "project-3",
@@ -278,14 +280,13 @@ const softwareEngineeringProjects = [
       },
     ],
     image: teammates,
-    repo: "https://github.com/RohithSurya/Weather-Image-Recognition",
+    repo: "https://github.com/TEAMMATES/teammates/pulls?q=is%3Apr+author%3A%40me+",
     demo: "",
   },
   {
     id: "project-2",
-    name: "Leaderboard",
-    description:
-      "A leaderboard list app that displays scores submitted by different players.",
+    name: "Leetcode",
+    description: "Solved more than 150+ problems on leetcode platform",
     tags: [
       {
         name: "react",
@@ -301,13 +302,14 @@ const softwareEngineeringProjects = [
       },
     ],
     image: leaderboard,
-    repo: "https://github.com/shaqdeff/Leaderboard",
-    demo: "https://shaqdeff.github.io/Leaderboard/",
+    repo: "https://github.com/RohithSurya/leetcoding",
+    demo: "https://leetcode.com/Ross1020/",
   },
   {
     id: "project-3",
-    name: "Math Magicians",
-    description: "This is a single-page calculator app built with React",
+    name: "Student Group Manager",
+    description:
+      "Created a Student Group Management system using Java Servlets and Java Server Pages with connectivity to MySQL Database for persistence.",
     tags: [
       {
         name: "nextjs",
@@ -322,9 +324,9 @@ const softwareEngineeringProjects = [
         color: "pink-text-gradient",
       },
     ],
-    image: math,
-    repo: "https://github.com/shaqdeff/Math-Magicians",
-    demo: "https://inspiring-medovik-37d3b3.netlify.app/",
+    image: studentGroupManger,
+    repo: "https://github.com/RohithSurya/CS-3220",
+    demo: "",
   },
   {
     id: "project-4",

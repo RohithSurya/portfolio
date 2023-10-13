@@ -29,6 +29,11 @@ import {
   teammates,
   studentGroupManger,
   iid3,
+  leetcodeProgress,
+  newsSarcasmDetection,
+  tatacommunications,
+  corestack,
+  nortonFamilyParentalControl,
 } from "../assets";
 
 export const navLinks = [
@@ -165,7 +170,7 @@ const dataScienceProjects = [
     ],
     image: weatherImage,
     repo: "https://github.com/RohithSurya/Weather-Image-Recognition",
-    demo: "",
+    demo: "https://github.com/RohithSurya/Weather-Image-Recognition",
   },
   {
     id: "project-2",
@@ -188,74 +193,29 @@ const dataScienceProjects = [
     ],
     image: iid3,
     repo: "https://github.com/gangadharKorrapati/MINPRO/tree/master",
-    demo: "",
+    demo: "https://github.com/gangadharKorrapati/MINPRO/tree/master",
   },
   {
     id: "project-3",
-    name: "Math Magicians",
-    description: "This is a single-page calculator app built with React",
+    name: "News Sarcasm Detection",
+    description: "",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "restapi",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "scss",
         color: "pink-text-gradient",
       },
     ],
-    image: math,
-    repo: "https://github.com/shaqdeff/Math-Magicians",
-    demo: "https://inspiring-medovik-37d3b3.netlify.app/",
-  },
-  {
-    id: "project-4",
-    name: "Movie Metro",
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: movie,
-    repo: "https://github.com/shaqdeff/Movie-Metro",
-    demo: "https://movie-metro.netlify.app/",
-  },
-  {
-    id: "project-5",
-    name: "Nyeusi Fest Site",
-    description:
-      "This is a demo concert website for a music festival called Nyeusi.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: nyeusi,
-    repo: "https://github.com/shaqdeff/Nyeusi-Fest-Site",
-    demo: "https://shaqdeff.github.io/Nyeusi-Fest-Site/",
+    image: newsSarcasmDetection,
+    repo: "https://github.com/RohithSurya/News-Sarcasm-Detection",
+    demo: "https://github.com/RohithSurya/News-Sarcasm-Detection",
   },
 ];
 
@@ -264,7 +224,7 @@ const softwareEngineeringProjects = [
     id: "project-1",
     name: "Teammates",
     description:
-      "TEAMMATES is a open source online tool for managing peer evaluations and other feedback paths of your students. Contributed to the project by fixing issues",
+      "TEAMMATES is a open source online tool for managing peer evaluations and other feedback paths of your students. Contributed to the project by fixing code bugs",
     tags: [
       {
         name: "react",
@@ -281,7 +241,7 @@ const softwareEngineeringProjects = [
     ],
     image: teammates,
     repo: "https://github.com/TEAMMATES/teammates/pulls?q=is%3Apr+author%3A%40me+",
-    demo: "",
+    demo: "https://teammatesv4.appspot.com/web/front/home",
   },
   {
     id: "project-2",
@@ -301,77 +261,39 @@ const softwareEngineeringProjects = [
         color: "pink-text-gradient",
       },
     ],
-    image: leaderboard,
+    image: leetcodeProgress,
     repo: "https://github.com/RohithSurya/leetcoding",
     demo: "https://leetcode.com/Ross1020/",
   },
   {
     id: "project-3",
-    name: "Student Group Manager",
+    name: "Bulk Asset creation",
     description:
-      "Created a Student Group Management system using Java Servlets and Java Server Pages with connectivity to MySQL Database for persistence.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: studentGroupManger,
-    repo: "https://github.com/RohithSurya/CS-3220",
-    demo: "",
+      "The project ensured that customers have an on-the-fly template created for them to upload the assets instead of a generic create/update template.",
+    tags: [],
+    image: tatacommunications,
+    repo: "https://ipcloud.tatacommunications.com/catalyst-v4/",
+    demo: "https://ipcloud.tatacommunications.com/catalyst-v4/",
   },
   {
     id: "project-4",
-    name: "Movie Metro",
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: movie,
-    repo: "https://github.com/shaqdeff/Movie-Metro",
-    demo: "https://movie-metro.netlify.app/",
+    name: "Corestack User and CMDB",
+    description:
+      "Automated and managed core stack user onboarding service and AWS and Azure assets migration into the user management and CMDB module.",
+    tags: [],
+    image: corestack,
+    repo: "https://ipcloud.tatacommunications.com/catalyst-v4/",
+    demo: "https://ipcloud.tatacommunications.com/catalyst-v4/",
   },
   {
     id: "project-5",
-    name: "Nyeusi Fest Site",
+    name: "Norton Parental Control",
     description:
-      "This is a demo concert website for a music festival called Nyeusi.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: nyeusi,
-    repo: "https://github.com/shaqdeff/Nyeusi-Fest-Site",
-    demo: "https://shaqdeff.github.io/Nyeusi-Fest-Site/",
+      "Developed an Age restriction feature to comply with GDPR compliance in the Norton Parental control Android app. This is a core screen that appears just after the login screen for the child devices.",
+    tags: [],
+    image: nortonFamilyParentalControl,
+    repo: "https://family.norton.com/web/",
+    demo: "https://family.norton.com/web/",
   },
 ];
 

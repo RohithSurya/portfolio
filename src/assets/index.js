@@ -60,6 +60,11 @@ import nyeusi from "./projects/nyeusi.png";
 import space from "./projects/space-hub.png";
 import studentGroupManger from "./projects/student-group-manager.jpeg";
 import iid3 from "./projects/iid3.png";
+import leetcodeProgress from "./projects/leetcode-progress.png";
+import newsSarcasmDetection from "./projects/news-sarcasm-detection.png";
+import tatacommunications from "./projects/tata-communications.png";
+import corestack from "./projects/corestack.png";
+import nortonFamilyParentalControl from "./projects/norton-family-parental-control.png";
 
 export {
   bwmap,
@@ -118,4 +123,9 @@ export {
   teammates,
   studentGroupManger,
   iid3,
+  leetcodeProgress,
+  newsSarcasmDetection,
+  tatacommunications,
+  corestack,
+  nortonFamilyParentalControl,
 };

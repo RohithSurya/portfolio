@@ -149,7 +149,7 @@ const Projects = () => {
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
-          {dataScienceProjects.map((project, index) => (
+          {softwareEngineeringProjects.map((project, index) => (
             <ProjectCard
               key={project.id}
               index={index}
@@ -169,7 +169,7 @@ const Projects = () => {
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
-          {softwareEngineeringProjects.map((project, index) => (
+          {dataScienceProjects.map((project, index) => (
             <ProjectCard
               key={project.id}
               index={index}

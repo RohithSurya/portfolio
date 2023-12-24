@@ -34,6 +34,7 @@ import {
   tatacommunications,
   corestack,
   nortonFamilyParentalControl,
+  snippetApp,
 } from "../assets";
 
 export const navLinks = [
@@ -220,6 +221,29 @@ const dataScienceProjects = [
 ];
 
 const softwareEngineeringProjects = [
+  {
+    id: "project-1",
+    name: "Snippets App",
+    description:
+      "Develop and build a Snippet Application so users can create code snippets and bookmark snippets",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: snippetApp,
+    repo: "https://github.com/RohithSurya/CS-5220/tree/main/snippets-application",
+    demo: "https://github.com/RohithSurya/CS-5220/tree/main/snippets-application",
+  },
   {
     id: "project-1",
     name: "Teammates",

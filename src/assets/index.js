@@ -52,6 +52,7 @@ import microverse from "./company/microverse.png";
 
 import komikult from "./projects/komikult.png";
 import teammates from "./projects/teammates.jpeg";
+import snippetApp from "./projects/snippet-app.jpeg";
 import weatherImage from "./projects/weather-image.jpeg";
 import leaderboard from "./projects/leaderboard.png";
 import math from "./projects/math-magicians.png";
@@ -128,4 +129,5 @@ export {
   tatacommunications,
   corestack,
   nortonFamilyParentalControl,
+  snippetApp,
 };

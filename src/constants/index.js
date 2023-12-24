@@ -267,28 +267,28 @@ const softwareEngineeringProjects = [
     repo: "https://github.com/TEAMMATES/teammates/pulls?q=is%3Apr+author%3A%40me+",
     demo: "https://teammatesv4.appspot.com/web/front/home",
   },
-  {
-    id: "project-2",
-    name: "Leetcode",
-    description: "Solved more than 150+ problems on leetcode platform",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: leetcodeProgress,
-    repo: "https://github.com/RohithSurya/leetcoding",
-    demo: "https://leetcode.com/Ross1020/",
-  },
+  // {
+  //   id: "project-2",
+  //   name: "Leetcode",
+  //   description: "Solved more than 150+ problems on leetcode platform",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "restapi",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "scss",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: leetcodeProgress,
+  //   repo: "https://github.com/RohithSurya/leetcoding",
+  //   demo: "https://leetcode.com/Ross1020/",
+  // },
   {
     id: "project-3",
     name: "Bulk Asset creation",

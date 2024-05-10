@@ -105,7 +105,7 @@ const Experience = () => {
               ease-in-out"
               onClick={() =>
                 window.open(
-                  "https://skillsfirst.com/awl/resumes/f7e797248b376b3cf066cbb105d7d94dd154dd1424d387f1", //paste the link to your resume here
+                  "https://myportfolioresume.s3.amazonaws.com/Resume.pdf", //paste the link to your resume here
                   "_blank"
                 )
               }

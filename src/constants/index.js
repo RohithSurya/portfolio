@@ -146,8 +146,15 @@ const experiences = [
     company_name: "College of Education at Calstate LA",
     icon: dcc,
     iconBg: "#333333",
-    date: "Nov 2022 - Present",
+    date: "Nov 2022 - May 2024",
   },
+  {
+    title: "HPCC Summer Intern",
+    company_name: "LexisNexis Risk Solutions",
+    icon: kelhel,
+    iconBg: "#333333",
+    date: "June 2024 - August 2024",
+  }
 ];
 
 const dataScienceProjects = [
